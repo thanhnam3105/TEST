@@ -1,0 +1,38 @@
+header{
+	float: left;
+	width: 100%;
+	.top-bar{
+		float: left;
+		width: 100%;
+		padding: 7px 0;
+		background-color: $color-grown-3;
+		strong{
+			float: right;
+			font-weight: normal;
+		}
+		span,strong{
+			color:white;
+			font-size: 15px;
+			font-weight: 600;
+		}
+	}
+	.logo{
+		float: left;
+		width: 100%;
+		padding: 50px 0;
+		span{
+			font-size: 28px;
+			font-weight: 600;
+		}
+		a{
+			color:$color-grown-3;
+			&:hover{
+				color:white;
+			}
+		}
+		.btn-style-1{
+			float:right;
+		}
+	}
+	
+}

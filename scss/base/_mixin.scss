@@ -1,0 +1,26 @@
+//mobile
+$res_mobile:"only screen and (min-width: 320px) and (max-width:767px)";
+
+@mixin responsive_mobile(){
+	@media #{$res_mobile}{
+		@content;
+	}
+}
+
+//tablet
+$res_tablet:"only screen and (min-width: 768px) and (max-width:991px)";
+
+@mixin responsive_tablet(){
+	@media #{$res_tablet}{
+		@content;
+	}
+}
+
+//Giới hạn số dòng
+@mixin textLine($value){
+	display: -webkit-box;
+	-webkit-line-clamp: $value;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+

@@ -1,0 +1,20 @@
+
+@import "base/_reset.scss";
+@import "base/_mixin.scss";
+@import "base/_animation.scss";
+
+@import "components/_type.scss";
+@import "components/_button.scss";
+@import "components/_input.scss";
+
+@import "layouts/_header.scss";
+@import "layouts/_navigation.scss";
+@import "layouts/_banner.scss";
+@import "layouts/_main.scss";
+@import "layouts/_footer.scss";
+
+
+/*---------------RESPONSIVE------------------*/
+
+@import "views/_mobile.scss";
+@import "views/_tablet.scss";

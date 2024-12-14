@@ -1,0 +1,142 @@
+@include responsive_mobile{
+	header{
+		.top-bar{
+			display: none;
+		}
+		.logo{
+			padding-top: 30px;
+			.btn-style-1{
+				float: unset;
+			}
+			span{
+				font-size: 18px;
+			}
+		}
+		img{
+			margin: 40px 0;
+		}
+	}
+	nav{
+
+	}
+	.stellarnav{
+		ul{
+			li{
+				border-left: 0;
+			}
+		}
+	}
+	.panel-title{
+		font-size: 14px;
+	}
+	.wrapper{
+		padding: 40px 0;
+		h1{
+			font-size: 30px;
+		}
+	}
+	.wrapper-card,
+	.card-2{
+		margin-bottom: 20px;
+	}
+	.wrap-flex{
+		display: unset;
+		.wrap-col{
+			float: left;
+			width: 100%;
+		}
+		.content{
+			float: left;
+			width: 100%;
+			position: unset;
+			transform: unset;
+			top: 0;
+			left: 0;
+			padding: 40px 50px;
+			h2{
+				font-size: 24px;
+			}
+		}
+		img{
+			height: 260px;
+		}
+	}
+	.banner{
+		padding: 60px 0;
+		a{
+			padding: 10px 25px;
+			font-size: 18px;
+		}
+		h3{
+			font-size: 20px;
+		}
+		h2{
+			font-size: 34px;
+		}
+		h1{
+			font-size: 34px;
+		}
+	}
+	figure{
+		img{
+			height: 100px;
+		}
+	}
+	.wrapper-gallery{
+		h3{
+			padding: 0;
+		}
+	}
+	.bg-3 {
+		img{
+			height: 170px;
+		}
+	}
+	.card-3{
+		img{
+			float: unset;
+		}
+		p{
+			font-size: 16px;
+		}
+	}
+	#swiper-button-next-card,
+	#swiper-button-prev-card{
+		top: 15%;
+	}
+	.btn-style-1{
+		padding: 10px 30px;
+	}
+	.stellarnav.mobile.right > ul{
+		z-index: 100;
+		background: $color-grown-2;
+		box-shadow: 5px 0px 6px 7px rgba(0,0,0,0.5);
+		a{
+			color:white;
+		}
+	}
+	footer{
+		iframe{
+			height: 250px !important;
+			margin-top: 30px;
+		}
+		p{
+			font-size: 16px !important;
+		}
+		.list-contact{
+			li{
+				a{
+					font-size: 14px;
+				}
+			}
+		}
+	}
+	.stellarnav,
+	nav{
+		background: $color-grown-2 !important;
+	}
+	.btn-scroll{
+		bottom: 50px;
+		right: 20px;
+	}
+}

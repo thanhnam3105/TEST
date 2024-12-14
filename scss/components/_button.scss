@@ -1,0 +1,79 @@
+// @import "_color.scss";
+.btn-style-1{
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+	color: $color-grown-3;
+	background:white;
+	padding: 10px 15px;
+	z-index: 1;
+	border:2px solid $color-grown-3;
+	overflow: hidden;
+	&:hover{
+		color:white;
+		span:nth-child(1){
+			top:0;
+			left: 0;
+		}
+		span:nth-child(2){
+			top:0;
+			right: 0;
+		}
+		span:nth-child(3){
+			bottom:0;
+			right: 0;
+		}
+		span:nth-child(4){
+			bottom:0;
+			left: 0;
+		}
+	}
+	span{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: #3f312d7d;
+		transition: 0.5s;
+		z-index: -1;
+		&:nth-child(1){
+			top: 100%;
+			left: 100%;
+		}
+		&:nth-child(2){
+			top: 100%;
+			right: 100%;
+		}
+		&:nth-child(3){
+			bottom: 100%;
+			right: 100%;
+		}
+		&:nth-child(4){
+			bottom: 100%;
+			left: 100%;
+		}
+	}
+}
+
+.btn-scroll{
+	display: none;
+	z-index: 100;
+	box-shadow: 3px 6px 9px rgba(0,0,0,0.8);
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	font:{
+		size:18px;
+		weight:600;
+	};
+	position: fixed;
+	bottom: 70px;
+	right: 70px;
+	background: $color-blue;
+	padding: 15px;
+	color:white;
+	transition: 0.3s;
+	&:hover{
+		background: $color-green;
+	}
+}
